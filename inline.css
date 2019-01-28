@@ -28,3 +28,29 @@ p{
 	margin: 0 auto;
 	width:  600px;
 }
+
+img{
+	float: left; /*Bild rutscht nach links und wird vom Text umschlossen*/
+	margin-top: 0;
+	margin-right: 16px;
+	margin-bottom: 14px; /*Muss hier ein bisschen basteln das der Abstand passt. Manchmal würde eine Zeile nicht daneben passen und der Abstand wird größer*/
+	margin-left: 0;
+	/*oder falle alle margins zusammen: margin: 0 1rem 1rem 0 --> Reihenfolge ist top, right, bottom, left. Geht im uhrzeigersinn*/
+}
+
+a{
+	display: inline-block; /*Das Beste aus beiden Welten, mixe Fähigkeiten von inline und block*/
+	background-color: yellow;
+	width: 180px;
+	height: 100px;
+}
+
+span{
+	color: red;
+}
+
+.erster-buchstabe{
+	font-size: 200%; /*Nur dieser Buchstabe ist größer als der restliche Text*/
+	display: block;
+	float: left;
+}
